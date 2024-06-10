@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 4px #bbd0e2;
+    background-color: #7fa2c4;
+    font-family: "Poppins", sans-serif;
+    height: 80px;
+    overflow: hidden;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.boxes {
+    display: flex; 
+    justify-content: space-around;
+    
+    align-content: center;
+
+    align-items: start;
+    font-family: "Roboto", sans-serif;
+    flex-wrap: wrap;
+    border-radius: 4px;
+    overflow: hidden;
+    row-gap: 20px;
+    transition: all 0.3s ease;
+    background-color: #fff;
+    margin-top: 50px;
+    padding: 23px;
+    margin: 23px;
+}
+
+.box1{
+
+    display: flex;
+
+    box-shadow: 0 0 4px #a9aaab;
+    padding: 23px;
+    margin: 23px;
+    min-height: 300px;
+    flex-wrap: wrap;
+    row-gap: 16px;
+    width: 400px;
+    /* padding: 23px; */
+    min-height: 350px;
+
+}
+
+.box1:hover{
+    box-shadow: 0 0 4px #0281ff;
+    background-color: #f9fdff;
+    transform: translateY(-2px);
+}
+
+footer {
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: #7fa2c4;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
